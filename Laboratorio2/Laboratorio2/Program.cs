@@ -23,6 +23,11 @@ namespace Laboraorio2
             // Al imprimir en consola vemos que ambas referencias imprimen el mismo valor "Jose".
             Console.WriteLine(object2.Nombre);
             Console.WriteLine(object1.Nombre);
+
+            //Tipos de datos alfanumericos
+            char caracter = 'A';
+            string cadena = "Cadena de caracteres";
+
         }
     }
 }
