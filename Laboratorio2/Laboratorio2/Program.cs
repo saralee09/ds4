@@ -1,14 +1,18 @@
-﻿internal class Program
+﻿namespace Laboraorio2
 {
-    private static void Main(string[] args)
+    internal class Program
     {
-        //Variable local dentro de Metodo, Esta variable (Variablelocal) solo funcionara dentro de este metodo
-
-        public void Sumar (int Valor1, int Valor2)
+        private static void Main(string[] args)
         {
-            int Variablelocal = Valor1 + Valor2;
-            Console.WriteLine(Variablelocal);
-        }
+            Client client = new Client
+            {
+                FirstName = "su_nombre",
+                LastName = "su_apellido",
+                Age = 15,
+                ID = 1
+            };
 
+            Console.WriteLine(client.GetFullname());
+        }
     }
 }
