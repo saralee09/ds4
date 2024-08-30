@@ -4,25 +4,25 @@ namespace Laboraorio2
 {
     public class MyClass
     {
-        public void MyMethod()
-        {
-            int valor1 = 21;
-            int valor2;
-
-            valor2 = valor1;
-            valor2 = 22;
-
-            Console.WriteLine(valor1);
-            Console.WriteLine(valor2);
-        }
+        public string Nombre { get; set; }
+        public int Edad { get; set; }
     }
 
     internal class Program
     {
         private static void Main(string[] args)
         {
-            MyClass myClass = new MyClass();
-            myClass.MyMethod();
+            MyClass object1 = new MyClass();
+            object1.Nombre = "Yeison";
+            object1.Edad = 28;
+
+            MyClass object2 = object1;
+
+            object2.Nombre = "Jose";
+
+            // Al imprimir en consola vemos que ambas referencias imprimen el mismo valor "Jose".
+            Console.WriteLine(object2.Nombre);
+            Console.WriteLine(object1.Nombre);
         }
     }
 }
