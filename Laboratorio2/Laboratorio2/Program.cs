@@ -1,19 +1,28 @@
-﻿namespace Laboraorio2
+﻿using System;
+
+namespace Laboraorio2
 {
-    internal class Program
+    public class MyClass
     {
-        private static void Main()
+        public void MyMethod()
         {
-            //Variable de clase
+            int valor1 = 21;
+            int valor2;
 
-            MyClass.Valor = 1;
+            valor2 = valor1;
+            valor2 = 22;
 
-            Console.WriteLine(MyClass.Valor);
+            Console.WriteLine(valor1);
+            Console.WriteLine(valor2);
         }
     }
 
-    public class MyClass
+    internal class Program
     {
-        public static int Valor;
+        private static void Main(string[] args)
+        {
+            MyClass myClass = new MyClass();
+            myClass.MyMethod();
+        }
     }
 }
