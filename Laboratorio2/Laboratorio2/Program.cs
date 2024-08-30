@@ -2,17 +2,18 @@
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
-            Client client = new Client
-            {
-                FirstName = "su_nombre",
-                LastName = "su_apellido",
-                Age = 15,
-                ID = 1
-            };
+            //Variable de clase
 
-            Console.WriteLine(client.GetFullname());
+            MyClass.Valor = 1;
+
+            Console.WriteLine(MyClass.Valor);
         }
+    }
+
+    public class MyClass
+    {
+        public static int Valor;
     }
 }
