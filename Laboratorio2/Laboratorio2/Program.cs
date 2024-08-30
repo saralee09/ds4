@@ -28,6 +28,9 @@ namespace Laboraorio2
             char caracter = 'A';
             string cadena = "Cadena de caracteres";
 
+            //Tipo de datos Logicos booleanos
+            bool condicion = true;
+
         }
     }
 }
