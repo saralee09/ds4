@@ -11,6 +11,6 @@
         segundoNumero = Convert.ToInt32(Console.ReadLine());
 
         suma = primerNumero + segundoNumero;
-        Console.WriteLine("La suma de {0} y {1} es {2}", primerNumero, segundoNumero, suma);
+        Console WriteLine("La suma de (0) y (1) es (2)*, primerNumero, segundoNumero, suma);
     }
 }
