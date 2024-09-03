@@ -16,7 +16,7 @@ internal class Program
 
         ans = calculos.CalculoPerimetro(numa, numb);
 
-        Console.WriteLine("El perímetro del rectángulo con lados {0} y {1} es {2}", numa, numb, ans);
+        Console.WriteLine("El perímetro del rectángulo de lados {0} y {1} es {2}", numa, numb, ans);
     }
 }
 
