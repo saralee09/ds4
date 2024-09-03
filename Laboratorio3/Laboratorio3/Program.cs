@@ -4,14 +4,13 @@
     {
         int primerNumero, segundoNumero, suma;
 
-        static Console WriteLine("Introduce el primer numero: *);
-        primerNumero = Convert.ToInt32(Console.ReadLineO);
+        Console.WriteLine("Introduce el primer número: ");
+        primerNumero = Convert.ToInt32(Console.ReadLine());
 
-        static Console Write("Introduce el segundo numero: *):
-        segundoNumero = Convert.ToInt32(Console ReadLineO);
+        Console.Write("Introduce el segundo número: ");
+        segundoNumero = Convert.ToInt32(Console.ReadLine());
 
         suma = primerNumero + segundoNumero;
-
-        static Console WriteLine("La suma de (0) y (1) es (2)*, primerNumero, segundoNumero, suma);
+        Console.WriteLine("La suma de {0} y {1} es {2}", primerNumero, segundoNumero, suma);
     }
 }
