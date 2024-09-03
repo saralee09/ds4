@@ -12,7 +12,7 @@ internal class Program
 
         ans = calculos.CalculoArea(radio, 3.1416);
 
-        Console.WriteLine("El área del círculo con radio {0} es {1}", radio, ans);
+        Console.WriteLine("El área del círculo con radio {0} , es {1}", radio, ans);
     }
 }
 
