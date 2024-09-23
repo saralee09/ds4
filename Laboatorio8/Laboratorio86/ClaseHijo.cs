@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laboratorio86
+namespace Laboratorio8
 {
-    internal class ClaseHijo
+    internal class ClaseHijo : ClaseBase
     {
+        public override void masTests()
+        {
+
+        }
     }
 }
