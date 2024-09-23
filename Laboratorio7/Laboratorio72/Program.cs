@@ -1,7 +1,12 @@
-﻿internal class Program
+﻿using Laboratorio72;
+namespace Laboratorio7
 {
-    private static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            JuegoDeDados j = new JuegoDeDados();
+            j.Jugar();
+        }
     }
 }
