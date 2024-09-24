@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 
-    public class Aleatorios
+    public class Aleatorio2
     {
         private Random random;
 
-        public Aleatorios()
+        public Aleatorio2()
         {
             random = new Random();
         }
