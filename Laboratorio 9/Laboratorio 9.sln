@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio 9", "Laboratorio 9\Laboratorio 9.csproj", "{2F7ACCF1-7974-497A-B07C-B7FB9851DA61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio 9", "Laboratorio 9\Laboratorio 9.csproj", "{2F7ACCF1-7974-497A-B07C-B7FB9851DA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio 91", "Laboratorio 91\Laboratorio 91.csproj", "{976588AC-FFB6-4BEA-BA0B-5CD9B43D79EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio 91", "Laboratorio 91\Laboratorio 91.csproj", "{976588AC-FFB6-4BEA-BA0B-5CD9B43D79EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio92", "Laboratorio92\Laboratorio92.csproj", "{47506F7C-DD26-46E8-BF26-E7F1014978B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio92", "Laboratorio92\Laboratorio92.csproj", "{47506F7C-DD26-46E8-BF26-E7F1014978B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboriatorio93", "Laboriatorio93\Laboriatorio93.csproj", "{BA3C24E3-8211-4A9C-BB28-E7C905775279}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio93", "Laboriatorio93\Laboratorio93.csproj", "{BA3C24E3-8211-4A9C-BB28-E7C905775279}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio94", "Laboratorio94\Laboratorio94.csproj", "{F071648D-BB81-46D8-BB30-413361A00704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio94", "Laboratorio94\Laboratorio94.csproj", "{F071648D-BB81-46D8-BB30-413361A00704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio95", "Laboratorio95\Laboratorio95.csproj", "{924884E4-51C5-4DD3-914B-32E44186BB64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio95", "Laboratorio95\Laboratorio95.csproj", "{924884E4-51C5-4DD3-914B-32E44186BB64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
