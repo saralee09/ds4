@@ -2,12 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Laboratorio_10._2</RootNamespace>
+    <RootNamespace>Laboratorio10</RootNamespace>
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="Laboratorio102.vbproj" />
-  </ItemGroup>
 
 </Project>
