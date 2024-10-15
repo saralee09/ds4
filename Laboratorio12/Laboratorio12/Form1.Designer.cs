@@ -110,13 +110,15 @@
             // 
             // btnlimpiar
             // 
-            this.btnlimpiar.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnlimpiar.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnlimpiar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnlimpiar.Location = new System.Drawing.Point(281, 136);
             this.btnlimpiar.Name = "btnlimpiar";
             this.btnlimpiar.Size = new System.Drawing.Size(75, 23);
             this.btnlimpiar.TabIndex = 8;
             this.btnlimpiar.Text = "Reiniciar";
             this.btnlimpiar.UseVisualStyleBackColor = false;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click_1);
             // 
             // btnsalida
             // 
@@ -126,6 +128,7 @@
             this.btnsalida.TabIndex = 9;
             this.btnsalida.Text = "Salir";
             this.btnsalida.UseVisualStyleBackColor = true;
+            this.btnsalida.Click += new System.EventHandler(this.btnsalida_Click_1);
             // 
             // Form1
             // 

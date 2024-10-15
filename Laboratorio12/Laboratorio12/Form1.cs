@@ -39,7 +39,7 @@ namespace Laboratorio12
             }
         }
 
-        private void btnlimpiar_Click(object sender, EventArgs e)
+        private void btnlimpiar_Click_1(object sender, EventArgs e)
         {
             txttiempo.Text = "";
             txtvelocidad.Text = "";
@@ -48,7 +48,7 @@ namespace Laboratorio12
             txttiempo.Focus();
         }
 
-        private void btnsalida_Click(object sender, EventArgs e)
+        private void btnsalida_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
