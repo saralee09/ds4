@@ -21,5 +21,14 @@ namespace Laboratorio12._3
         {
             this.Close();
         }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            txtA.Text = string.Empty;
+            txtB.Text = string.Empty;
+            txtC.Text = string.Empty;
+            txtArea.Text = string.Empty;
+            txtSP.Text = string.Empty;
+        }
     }
 }
