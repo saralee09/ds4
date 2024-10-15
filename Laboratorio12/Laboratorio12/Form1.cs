@@ -24,20 +24,20 @@ namespace Laboratorio12
 
         private void btncalcular_Click(object sender, EventArgs e)
         {
-                try
-                {
-                    double tiempo = Convert.ToDouble(txttiempo.Text);
-                    double velocidad = Convert.ToDouble(txtvelocidad.Text);
+            try
+            {
+                double tiempo = Convert.ToDouble(txttiempo.Text);
+                double velocidad = Convert.ToDouble(txtvelocidad.Text);
 
-                    double distancia = tiempo * velocidad;
+                double distancia = tiempo * velocidad;
 
-                    lblresultado.Text = "La distancia es: " + distancia.ToString() + " unidades";
-                }
-                catch (FormatException)
-                {
-                    MessageBox.Show("Por favor, ingresa valores numéricos válidos en ambos campos.");
-                }
-
+                txtresultado.Text = distancia.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Por favor, ingresa valores numéricos válidos en ambos campos.");
+            }
         }
+
     }
 }
