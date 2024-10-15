@@ -61,7 +61,7 @@ namespace Laboratorio12._3
                 double SP = (A + B + C) / 2;
                 double area = Math.Sqrt(SP * (SP - A) * (SP - B) * (SP - C));
 
-                txtSP.Text = area.ToString();
+                txtArea.Text = area.ToString();
             }
             catch (FormatException)
             {
