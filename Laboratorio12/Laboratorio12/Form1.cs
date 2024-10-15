@@ -52,6 +52,5 @@ namespace Laboratorio12
         {
             this.Close();
         }
-
     }
 }
