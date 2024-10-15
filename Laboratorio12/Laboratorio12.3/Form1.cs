@@ -65,7 +65,7 @@ namespace Laboratorio12._3
             }
             catch (FormatException)
             {
-                MessageBox.Show("Pro favor, inserta cantidades validas para los lados");
+                MessageBox.Show("Pro favor, inserta cantidades validas");
             }
         }
     }
