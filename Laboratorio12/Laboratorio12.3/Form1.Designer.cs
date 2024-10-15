@@ -160,6 +160,7 @@
             this.btnArea.TabIndex = 12;
             this.btnArea.Text = "Area";
             this.btnArea.UseVisualStyleBackColor = true;
+            this.btnArea.Click += new System.EventHandler(this.btnArea_Click);
             // 
             // btnReset
             // 

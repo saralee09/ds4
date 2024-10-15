@@ -49,5 +49,24 @@ namespace Laboratorio12._3
                 MessageBox.Show("Pro favor, inserta cantidades validas para los lados");
             }
         }
+
+        private void btnArea_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double A = Convert.ToDouble(txtA.Text);
+                double B = Convert.ToDouble(txtB.Text);
+                double C = Convert.ToDouble(txtC.Text);
+
+                double SP = (A + B + C) / 2;
+                double area = Math.Sqrt(SP * (SP - A) * (SP - B) * (SP - C));
+
+                txtSP.Text = area.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Pro favor, inserta cantidades validas para los lados");
+            }
+        }
     }
 }
