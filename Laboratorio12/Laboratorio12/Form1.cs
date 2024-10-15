@@ -39,5 +39,15 @@ namespace Laboratorio12
             }
         }
 
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txttiempo.Text = "";
+            txtvelocidad.Text = "";
+            txtresultado.Text = "";
+
+            txttiempo.Focus();
+        }
+
+
     }
 }
