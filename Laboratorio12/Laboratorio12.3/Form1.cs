@@ -30,5 +30,24 @@ namespace Laboratorio12._3
             txtArea.Text = string.Empty;
             txtSP.Text = string.Empty;
         }
+
+        private void btnSP_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double A = Convert.ToDouble(txtA.Text);
+                double B = Convert.ToDouble(txtB.Text);
+                double C = Convert.ToDouble(txtC.Text);
+
+
+                double SP = (A+B+C) / 2;
+
+                txtSP.Text = SP.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Pro favor, inserta cantidades validas para los lados");
+            }
+        }
     }
 }

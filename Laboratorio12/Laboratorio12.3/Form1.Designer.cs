@@ -149,6 +149,7 @@
             this.btnSP.TabIndex = 11;
             this.btnSP.Text = "Semiperimetro";
             this.btnSP.UseVisualStyleBackColor = true;
+            this.btnSP.Click += new System.EventHandler(this.btnSP_Click);
             // 
             // btnArea
             // 
