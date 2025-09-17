@@ -1,30 +1,28 @@
-﻿namespace Laboraorio2
+﻿using System;
+
+namespace Laboraorio2
 {
-    private static void Main(string[] args)
-    {
-        Client client = new Client
-        {
-            FirstName = "su_nombre",
-            LastName = "su_apellido",
-            Age = 15,
-            ID = 1
-        };
-
-        Console.WriteLine(client.GetFullname());
-    }
-
     public class MyClass
     {
-        public void MyMethod()
+        public string Nombre { get; set; }
+        public int Edad { get; set; }
+    }
+
+    internal class Program
+    {
+        private static void Main(string[] args)
         {
-            int valor1 = 28;
-            int valor2 = valor1;
-            valor2 = 30;
+            MyClass object1 = new MyClass();
+            object1.Nombre = "Yeison";
+            object1.Edad = 28;
 
-            Console.WriteLine(valor1);
-            Console.WriteLine(valor2);
+            MyClass object2 = object1;
 
-            Console.WriteLine(valor1);
-            Console.WriteLine(valor2);
+            object2.Nombre = "Jose";
+
+            // Al imprimir en consola vemos que ambas referencias imprimen el mismo valor "Jose".
+            Console.WriteLine(object2.Nombre);
+            Console.WriteLine(object1.Nombre);
         }
+    }
 }
