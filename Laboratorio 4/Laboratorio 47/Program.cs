@@ -1,6 +1,6 @@
-﻿internal class program
+﻿class Program
 {
-    private static void Main(string[]args)
+    static void Main(string[]args)
     {
         int numeroUno = 70;
         double numeroDos = 67.89;
