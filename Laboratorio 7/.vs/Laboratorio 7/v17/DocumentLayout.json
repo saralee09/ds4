@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{241DE3A3-B4BB-40C4-BBAA-FBB5CCE664F8}|Laboratorio 72\\Laboratorio 72.csproj|solutionrelative:laboratorio 72\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{241DE3A3-B4BB-40C4-BBAA-FBB5CCE664F8}|Laboratorio 72\\Laboratorio 72.csproj|c:\\users\\sarag\\source\\repos\\saralee09\\ds4\\laboratorio 7\\laboratorio 72\\juegodedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{241DE3A3-B4BB-40C4-BBAA-FBB5CCE664F8}|Laboratorio 72\\Laboratorio 72.csproj|solutionrelative:laboratorio 72\\juegodedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{241DE3A3-B4BB-40C4-BBAA-FBB5CCE664F8}|Laboratorio 72\\Laboratorio 72.csproj|c:\\users\\sarag\\source\\repos\\saralee09\\ds4\\laboratorio 7\\laboratorio 72\\dado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{241DE3A3-B4BB-40C4-BBAA-FBB5CCE664F8}|Laboratorio 72\\Laboratorio 72.csproj|solutionrelative:laboratorio 72\\dado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7CA300FF-FB97-4209-995E-4E1197D8DA32}|Laboratorio 7.csproj|c:\\users\\sarag\\source\\repos\\saralee09\\ds4\\laboratorio 7\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA300FF-FB97-4209-995E-4E1197D8DA32}|Laboratorio 7.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,8 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JuegoDeDados.cs",
+              "DocumentMoniker": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 7\\Laboratorio 72\\JuegoDeDados.cs",
+              "RelativeDocumentMoniker": "Laboratorio 72\\JuegoDeDados.cs",
+              "ToolTip": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 7\\Laboratorio 72\\JuegoDeDados.cs",
+              "RelativeToolTip": "Laboratorio 72\\JuegoDeDados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T00:05:33.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dado.cs",
+              "DocumentMoniker": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 7\\Laboratorio 72\\Dado.cs",
+              "RelativeDocumentMoniker": "Laboratorio 72\\Dado.cs",
+              "ToolTip": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 7\\Laboratorio 72\\Dado.cs",
+              "RelativeToolTip": "Laboratorio 72\\Dado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T00:01:32.563Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +70,14 @@
               "RelativeDocumentMoniker": "Laboratorio 72\\Program.cs",
               "ToolTip": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 7\\Laboratorio 72\\Program.cs",
               "RelativeToolTip": "Laboratorio 72\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T00:00:12.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 7\\Cliente.cs",
               "RelativeDocumentMoniker": "Cliente.cs",
@@ -56,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Banco.cs",
               "DocumentMoniker": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 7\\Banco.cs",
               "RelativeDocumentMoniker": "Banco.cs",
@@ -69,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 7\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
