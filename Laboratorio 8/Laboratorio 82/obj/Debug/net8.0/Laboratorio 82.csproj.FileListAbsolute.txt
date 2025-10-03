@@ -1,0 +1,5 @@
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 8\Laboratorio 82\obj\Debug\net8.0\Laboratorio 82.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 8\Laboratorio 82\obj\Debug\net8.0\Laboratorio 82.AssemblyInfoInputs.cache
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 8\Laboratorio 82\obj\Debug\net8.0\Laboratorio 82.AssemblyInfo.cs
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 8\Laboratorio 82\obj\Debug\net8.0\Laboratorio 82.csproj.CoreCompileInputs.cache
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 8\Laboratorio 82\obj\Debug\net8.0\Laboratorio 82.sourcelink.json

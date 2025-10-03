@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\laboratorio 8\\Laboratorio 85\\Laboratorio 85.csproj": {}
+    "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 8\\Laboratorio 85\\Laboratorio 85.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\laboratorio 8\\Laboratorio 85\\Laboratorio 85.csproj": {
+    "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 8\\Laboratorio 85\\Laboratorio 85.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\laboratorio 8\\Laboratorio 85\\Laboratorio 85.csproj",
+        "projectUniqueName": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 8\\Laboratorio 85\\Laboratorio 85.csproj",
         "projectName": "Laboratorio 85",
-        "projectPath": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\laboratorio 8\\Laboratorio 85\\Laboratorio 85.csproj",
+        "projectPath": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\Laboratorio 8\\Laboratorio 85\\Laboratorio 85.csproj",
         "packagesPath": "C:\\Users\\sarag\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sarag\\source\\repos\\saralee09\\ds4\\laboratorio 8\\Laboratorio 85\\obj\\",
         "projectStyle": "PackageReference",
