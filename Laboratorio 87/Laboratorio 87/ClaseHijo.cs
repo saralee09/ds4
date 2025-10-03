@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laboratorio_87
+namespace Laboratorio8
 {
-    internal class ClaseHijo
+    internal class ClaseHijo : ClaseBase
     {
     }
 }
