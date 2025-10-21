@@ -1,0 +1,15 @@
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\bin\Debug\net8.0\Parte2.exe
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\bin\Debug\net8.0\Parte2.deps.json
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\bin\Debug\net8.0\Parte2.runtimeconfig.json
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\bin\Debug\net8.0\Parte2.dll
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\bin\Debug\net8.0\Parte2.pdb
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\Parte2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\Parte2.AssemblyInfoInputs.cache
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\Parte2.AssemblyInfo.cs
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\Parte2.csproj.CoreCompileInputs.cache
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\Parte2.sourcelink.json
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\Parte2.dll
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\refint\Parte2.dll
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\Parte2.pdb
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\Parte2.genruntimeconfig.cache
+C:\Users\sarag\source\repos\saralee09\ds4\Parcial 1\Parte2\obj\Debug\net8.0\ref\Parte2.dll
