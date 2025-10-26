@@ -68,7 +68,7 @@
             this.btnConvbinario.Name = "btnConvbinario";
             this.btnConvbinario.Size = new System.Drawing.Size(60, 23);
             this.btnConvbinario.TabIndex = 1;
-            this.btnConvbinario.Text = "button1";
+            this.btnConvbinario.Text = "x₂";
             this.btnConvbinario.UseVisualStyleBackColor = true;
             // 
             // btnCE
@@ -77,7 +77,7 @@
             this.btnCE.Name = "btnCE";
             this.btnCE.Size = new System.Drawing.Size(60, 23);
             this.btnCE.TabIndex = 2;
-            this.btnCE.Text = "button2";
+            this.btnCE.Text = "CE";
             this.btnCE.UseVisualStyleBackColor = true;
             // 
             // btnC
@@ -86,7 +86,7 @@
             this.btnC.Name = "btnC";
             this.btnC.Size = new System.Drawing.Size(60, 23);
             this.btnC.TabIndex = 3;
-            this.btnC.Text = "button3";
+            this.btnC.Text = "C";
             this.btnC.UseVisualStyleBackColor = true;
             // 
             // btnBorrar
@@ -95,7 +95,7 @@
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(60, 23);
             this.btnBorrar.TabIndex = 4;
-            this.btnBorrar.Text = "button4";
+            this.btnBorrar.Text = " ←";
             this.btnBorrar.UseVisualStyleBackColor = true;
             // 
             // btnDiv
@@ -104,7 +104,7 @@
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(60, 23);
             this.btnDiv.TabIndex = 8;
-            this.btnDiv.Text = "button5";
+            this.btnDiv.Text = "÷";
             this.btnDiv.UseVisualStyleBackColor = true;
             // 
             // btnAlcuadrado
@@ -113,7 +113,7 @@
             this.btnAlcuadrado.Name = "btnAlcuadrado";
             this.btnAlcuadrado.Size = new System.Drawing.Size(60, 23);
             this.btnAlcuadrado.TabIndex = 7;
-            this.btnAlcuadrado.Text = "button6";
+            this.btnAlcuadrado.Text = "x²";
             this.btnAlcuadrado.UseVisualStyleBackColor = true;
             // 
             // btnRaizcuadrada
@@ -122,7 +122,7 @@
             this.btnRaizcuadrada.Name = "btnRaizcuadrada";
             this.btnRaizcuadrada.Size = new System.Drawing.Size(60, 23);
             this.btnRaizcuadrada.TabIndex = 6;
-            this.btnRaizcuadrada.Text = "button7";
+            this.btnRaizcuadrada.Text = "²√x";
             this.btnRaizcuadrada.UseVisualStyleBackColor = true;
             // 
             // btnConvdecimal
@@ -131,7 +131,7 @@
             this.btnConvdecimal.Name = "btnConvdecimal";
             this.btnConvdecimal.Size = new System.Drawing.Size(60, 23);
             this.btnConvdecimal.TabIndex = 5;
-            this.btnConvdecimal.Text = "button8";
+            this.btnConvdecimal.Text = "x₁₀";
             this.btnConvdecimal.UseVisualStyleBackColor = true;
             // 
             // btnMult
@@ -140,7 +140,7 @@
             this.btnMult.Name = "btnMult";
             this.btnMult.Size = new System.Drawing.Size(60, 23);
             this.btnMult.TabIndex = 12;
-            this.btnMult.Text = "button9";
+            this.btnMult.Text = "x";
             this.btnMult.UseVisualStyleBackColor = true;
             // 
             // btn9
@@ -149,7 +149,7 @@
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(60, 23);
             this.btn9.TabIndex = 11;
-            this.btn9.Text = "button10";
+            this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
             this.btn9.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -159,7 +159,7 @@
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(60, 23);
             this.btn8.TabIndex = 10;
-            this.btn8.Text = "button11";
+            this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
             // 
             // btn7
@@ -168,7 +168,7 @@
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(60, 23);
             this.btn7.TabIndex = 9;
-            this.btn7.Text = "button12";
+            this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
             // 
             // btnResta
@@ -177,7 +177,7 @@
             this.btnResta.Name = "btnResta";
             this.btnResta.Size = new System.Drawing.Size(60, 23);
             this.btnResta.TabIndex = 16;
-            this.btnResta.Text = "button13";
+            this.btnResta.Text = "-";
             this.btnResta.UseVisualStyleBackColor = true;
             // 
             // btn6
@@ -186,7 +186,7 @@
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(60, 23);
             this.btn6.TabIndex = 15;
-            this.btn6.Text = "button14";
+            this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
             // 
             // btn5
@@ -195,7 +195,7 @@
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(60, 23);
             this.btn5.TabIndex = 14;
-            this.btn5.Text = "button15";
+            this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
             // 
             // btn4
@@ -204,7 +204,7 @@
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(60, 23);
             this.btn4.TabIndex = 13;
-            this.btn4.Text = "button16";
+            this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
             // 
             // btnSuma
@@ -213,7 +213,7 @@
             this.btnSuma.Name = "btnSuma";
             this.btnSuma.Size = new System.Drawing.Size(60, 23);
             this.btnSuma.TabIndex = 20;
-            this.btnSuma.Text = "button17";
+            this.btnSuma.Text = "+";
             this.btnSuma.UseVisualStyleBackColor = true;
             // 
             // btn3
@@ -222,7 +222,7 @@
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(60, 23);
             this.btn3.TabIndex = 19;
-            this.btn3.Text = "button18";
+            this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
             // 
             // btn2
@@ -231,7 +231,7 @@
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(60, 23);
             this.btn2.TabIndex = 18;
-            this.btn2.Text = "button19";
+            this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
             // 
             // btn1
@@ -240,7 +240,7 @@
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(60, 23);
             this.btn1.TabIndex = 17;
-            this.btn1.Text = "button20";
+            this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
             // 
             // btnIgual
@@ -249,7 +249,7 @@
             this.btnIgual.Name = "btnIgual";
             this.btnIgual.Size = new System.Drawing.Size(60, 23);
             this.btnIgual.TabIndex = 24;
-            this.btnIgual.Text = "button21";
+            this.btnIgual.Text = "=";
             this.btnIgual.UseVisualStyleBackColor = true;
             // 
             // btnDecimal
@@ -258,7 +258,7 @@
             this.btnDecimal.Name = "btnDecimal";
             this.btnDecimal.Size = new System.Drawing.Size(60, 23);
             this.btnDecimal.TabIndex = 23;
-            this.btnDecimal.Text = "button22";
+            this.btnDecimal.Text = ".";
             this.btnDecimal.UseVisualStyleBackColor = true;
             // 
             // btn0
@@ -267,7 +267,7 @@
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(60, 23);
             this.btn0.TabIndex = 22;
-            this.btn0.Text = "button23";
+            this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = true;
             // 
             // btnNegativos
@@ -276,7 +276,7 @@
             this.btnNegativos.Name = "btnNegativos";
             this.btnNegativos.Size = new System.Drawing.Size(60, 23);
             this.btnNegativos.TabIndex = 21;
-            this.btnNegativos.Text = "button24";
+            this.btnNegativos.Text = "+/-";
             this.btnNegativos.UseVisualStyleBackColor = true;
             // 
             // Form1
@@ -310,7 +310,8 @@
             this.Controls.Add(this.btnConvbinario);
             this.Controls.Add(this.txtPantalla);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculadora";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
