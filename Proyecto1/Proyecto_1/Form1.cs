@@ -76,6 +76,13 @@ namespace Proyecto_1
                 if (txtPantalla.Text == "")
                     return;
 
+                // Si no hay operación definida, solo muestra el número
+                if (string.IsNullOrEmpty(operacion))
+                {
+                    txtPantalla.Text = txtPantalla.Text;
+                    return;
+                }
+
                 valor2 = double.Parse(txtPantalla.Text);
 
                 switch (operacion)
@@ -103,12 +110,15 @@ namespace Proyecto_1
                 }
 
                 txtPantalla.Text = resultado.ToString();
+                // Reinicia la operación
+                operacion = "";
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
     }
 
 }
