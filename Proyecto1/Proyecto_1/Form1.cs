@@ -26,7 +26,12 @@ namespace Proyecto_1
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
-
+            if (txtPantalla.Text != "")
+            {
+                valor1 = double.Parse(txtPantalla.Text);
+                operacion = "/";
+                txtPantalla.Clear();
+            }
         }
 
         private void btnMult_Click(object sender, EventArgs e)
