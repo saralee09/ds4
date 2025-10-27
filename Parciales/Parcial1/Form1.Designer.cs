@@ -44,6 +44,7 @@
             this.txt_m2y.Name = "txt_m2y";
             this.txt_m2y.Size = new System.Drawing.Size(100, 20);
             this.txt_m2y.TabIndex = 0;
+            this.txt_m2y.TextChanged += new System.EventHandler(this.txt_m2y_TextChanged);
             // 
             // lbl_m2y
             // 
@@ -53,6 +54,7 @@
             this.lbl_m2y.Size = new System.Drawing.Size(84, 13);
             this.lbl_m2y.TabIndex = 1;
             this.lbl_m2y.Text = "Metros a Yardas";
+            this.lbl_m2y.Click += new System.EventHandler(this.lbl_m2y_Click);
             // 
             // btn_m2y
             // 
@@ -62,6 +64,7 @@
             this.btn_m2y.TabIndex = 2;
             this.btn_m2y.Text = "->";
             this.btn_m2y.UseVisualStyleBackColor = true;
+            this.btn_m2y.Click += new System.EventHandler(this.btn_m2y_Click);
             // 
             // txt_m2yans
             // 
@@ -69,6 +72,7 @@
             this.txt_m2yans.Name = "txt_m2yans";
             this.txt_m2yans.Size = new System.Drawing.Size(100, 20);
             this.txt_m2yans.TabIndex = 3;
+            this.txt_m2yans.TextChanged += new System.EventHandler(this.txt_m2yans_TextChanged);
             // 
             // txt_y2mans
             // 
@@ -76,6 +80,7 @@
             this.txt_y2mans.Name = "txt_y2mans";
             this.txt_y2mans.Size = new System.Drawing.Size(100, 20);
             this.txt_y2mans.TabIndex = 7;
+            this.txt_y2mans.TextChanged += new System.EventHandler(this.txt_y2mans_TextChanged);
             // 
             // btn_y2m
             // 
@@ -85,6 +90,7 @@
             this.btn_y2m.TabIndex = 6;
             this.btn_y2m.Text = "->";
             this.btn_y2m.UseVisualStyleBackColor = true;
+            this.btn_y2m.Click += new System.EventHandler(this.btn_y2m_Click);
             // 
             // lbl_y2m
             // 
@@ -94,6 +100,7 @@
             this.lbl_y2m.Size = new System.Drawing.Size(84, 13);
             this.lbl_y2m.TabIndex = 5;
             this.lbl_y2m.Text = "Yardas a Metros";
+            this.lbl_y2m.Click += new System.EventHandler(this.lbl_y2m_Click);
             // 
             // txt_y2m
             // 
@@ -101,6 +108,7 @@
             this.txt_y2m.Name = "txt_y2m";
             this.txt_y2m.Size = new System.Drawing.Size(100, 20);
             this.txt_y2m.TabIndex = 4;
+            this.txt_y2m.TextChanged += new System.EventHandler(this.txt_y2m_TextChanged);
             // 
             // Form1
             // 
