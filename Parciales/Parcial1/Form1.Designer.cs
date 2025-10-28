@@ -38,6 +38,8 @@
             this.txt_y2m = new System.Windows.Forms.TextBox();
             this.btn_limpiar = new System.Windows.Forms.Button();
             this.btn_historial = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.lst_hitorial = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // txt_m2y
@@ -132,11 +134,20 @@
             this.btn_historial.UseVisualStyleBackColor = true;
             this.btn_historial.Click += new System.EventHandler(this.btn_historial_Click);
             // 
+            // lst_hitorial
+            // 
+            this.lst_hitorial.FormattingEnabled = true;
+            this.lst_hitorial.Location = new System.Drawing.Point(420, 14);
+            this.lst_hitorial.Name = "lst_hitorial";
+            this.lst_hitorial.Size = new System.Drawing.Size(173, 199);
+            this.lst_hitorial.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lst_hitorial);
             this.Controls.Add(this.btn_historial);
             this.Controls.Add(this.btn_limpiar);
             this.Controls.Add(this.txt_y2mans);
@@ -167,6 +178,8 @@
         private System.Windows.Forms.TextBox txt_y2m;
         private System.Windows.Forms.Button btn_limpiar;
         private System.Windows.Forms.Button btn_historial;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.ListBox lst_hitorial;
     }
 }
 
