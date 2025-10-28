@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -46,8 +47,7 @@ namespace Parcial1
                 MessageBox.Show("Ingrese un valor válido en metros.");
             }
         }
-
-        }
+        
 
         private void txt_m2yans_TextChanged(object sender, EventArgs e)
         {
