@@ -57,7 +57,7 @@
             this.lbl_m2y.Name = "lbl_m2y";
             this.lbl_m2y.Size = new System.Drawing.Size(84, 13);
             this.lbl_m2y.TabIndex = 1;
-            this.lbl_m2y.Text = "Metros a Yardas";
+            this.lbl_m2y.Text = "Metros a pulgadas";
             this.lbl_m2y.Click += new System.EventHandler(this.lbl_m2y_Click);
             // 
             // btn_m2y
@@ -103,7 +103,7 @@
             this.lbl_y2m.Name = "lbl_y2m";
             this.lbl_y2m.Size = new System.Drawing.Size(84, 13);
             this.lbl_y2m.TabIndex = 5;
-            this.lbl_y2m.Text = "Yardas a Metros";
+            this.lbl_y2m.Text = "pulgadas a Metros";
             this.lbl_y2m.Click += new System.EventHandler(this.lbl_y2m_Click);
             // 
             // txt_y2m

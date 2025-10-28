@@ -38,9 +38,9 @@ namespace Parcial1
         {
             if (double.TryParse(txt_m2y.Text, out double metros))
             {
-                double yardas = metros * 1.09361;
-                txt_m2yans.Text = yardas.ToString("F2");
-                GuardarConversion("Metros a Yardas", metros, yardas);
+                double pulgadas = metros * 39.370;
+                txt_m2yans.Text = pulgadas.ToString("F2");
+                GuardarConversion("Metros a pulgadas", metros, pulgadas);
             }
             else
             {
@@ -66,15 +66,15 @@ namespace Parcial1
 
         private void btn_y2m_Click(object sender, EventArgs e)
         {
-            if (double.TryParse(txt_y2m.Text, out double yardas))
+            if (double.TryParse(txt_y2m.Text, out double pulgadas))
             {
-                double metros = yardas / 1.09361;
+                double metros = pulgadas / 39.370;
                 txt_y2mans.Text = metros.ToString("F2");
-                GuardarConversion("Yardas a Metros", yardas, metros);
+                GuardarConversion("pulgadas a Metros", pulgadas, metros);
             }
             else
             {
-                MessageBox.Show("Ingrese un valor válido en yardas.");
+                MessageBox.Show("Ingrese un valor válido en pulgadas.");
             }
 
         }
