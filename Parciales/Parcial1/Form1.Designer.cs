@@ -139,7 +139,7 @@
             this.lst_historial.FormattingEnabled = true;
             this.lst_historial.Location = new System.Drawing.Point(420, 14);
             this.lst_historial.Name = "lst_historial";
-            this.lst_historial.Size = new System.Drawing.Size(173, 199);
+            this.lst_historial.Size = new System.Drawing.Size(357, 199);
             this.lst_historial.TabIndex = 10;
             this.lst_historial.SelectedIndexChanged += new System.EventHandler(this.lst_hitorial_SelectedIndexChanged);
             // 

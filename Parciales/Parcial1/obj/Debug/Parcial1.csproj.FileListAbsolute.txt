@@ -3,3 +3,9 @@ C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\obj\Debug\Parcial1.
 C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\obj\Debug\Parcial1.Properties.Resources.resources
 C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\obj\Debug\Parcial1.csproj.GenerateResource.cache
 C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\obj\Debug\Parcial1.csproj.CoreCompileInputs.cache
+C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\bin\Debug\Parcial1.exe.config
+C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\bin\Debug\Parcial1.exe
+C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\bin\Debug\Parcial1.pdb
+C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\obj\Debug\Parcial1.exe
+C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\obj\Debug\Parcial1.pdb
+C:\Users\sarag\source\repos\saralee09\ds4\Parciales\Parcial1\obj\Debug\Parcial1.exe.config
