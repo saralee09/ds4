@@ -36,6 +36,8 @@
             this.btn_y2m = new System.Windows.Forms.Button();
             this.lbl_y2m = new System.Windows.Forms.Label();
             this.txt_y2m = new System.Windows.Forms.TextBox();
+            this.btn_limpiar = new System.Windows.Forms.Button();
+            this.btn_historial = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt_m2y
@@ -110,11 +112,33 @@
             this.txt_y2m.TabIndex = 4;
             this.txt_y2m.TextChanged += new System.EventHandler(this.txt_y2m_TextChanged);
             // 
+            // btn_limpiar
+            // 
+            this.btn_limpiar.Location = new System.Drawing.Point(25, 136);
+            this.btn_limpiar.Name = "btn_limpiar";
+            this.btn_limpiar.Size = new System.Drawing.Size(75, 23);
+            this.btn_limpiar.TabIndex = 8;
+            this.btn_limpiar.Text = "<--";
+            this.btn_limpiar.UseVisualStyleBackColor = true;
+            this.btn_limpiar.Click += new System.EventHandler(this.btn_limpiar_Click);
+            // 
+            // btn_historial
+            // 
+            this.btn_historial.Location = new System.Drawing.Point(25, 165);
+            this.btn_historial.Name = "btn_historial";
+            this.btn_historial.Size = new System.Drawing.Size(168, 23);
+            this.btn_historial.TabIndex = 9;
+            this.btn_historial.Text = "Ver historial de conversiones";
+            this.btn_historial.UseVisualStyleBackColor = true;
+            this.btn_historial.Click += new System.EventHandler(this.btn_historial_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_historial);
+            this.Controls.Add(this.btn_limpiar);
             this.Controls.Add(this.txt_y2mans);
             this.Controls.Add(this.btn_y2m);
             this.Controls.Add(this.lbl_y2m);
@@ -141,6 +165,8 @@
         private System.Windows.Forms.Button btn_y2m;
         private System.Windows.Forms.Label lbl_y2m;
         private System.Windows.Forms.TextBox txt_y2m;
+        private System.Windows.Forms.Button btn_limpiar;
+        private System.Windows.Forms.Button btn_historial;
     }
 }
 
