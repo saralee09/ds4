@@ -8,3 +8,4 @@ C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\bin\Debug\Proyect
 C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\bin\Debug\Proyecto_1.pdb
 C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.exe
 C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.pdb
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.exe.config
