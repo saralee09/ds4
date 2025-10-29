@@ -21,7 +21,7 @@ namespace Proyecto_1
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            txtPantalla.Text += "9";
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
@@ -94,6 +94,10 @@ namespace Proyecto_1
         private void btnBorrar_Click(object sender, EventArgs e)
         {
 
+            if (txtPantalla.Text.Length > 0)
+            {
+                txtPantalla.Text = txtPantalla.Text.Substring(0, txtPantalla.Text.Length - 1);
+            }
         }
 
         private void btnConvdecimal_Click(object sender, EventArgs e)
@@ -164,7 +168,13 @@ namespace Proyecto_1
 
         private void btnDecimal_Click(object sender, EventArgs e)
         {
-
+            if (!txtPantalla.Text.Contains("."))
+            {
+                if (txtPantalla.Text == "")
+                    txtPantalla.Text = "0.";
+                else
+                    txtPantalla.Text += ".";
+            }
         }
 
         private void btn0_Click(object sender, EventArgs e)
