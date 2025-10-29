@@ -34,6 +34,7 @@ namespace Proyecto_1
             }
         }
 
+
         private void btnMult_Click(object sender, EventArgs e)
         {
             if (txtPantalla.Text != "")
@@ -71,7 +72,11 @@ namespace Proyecto_1
 
         private void btnConvbinario_Click(object sender, EventArgs e)
         {
-
+            if (txtPantalla.Text != "")
+            {
+                int numero = (int)double.Parse(txtPantalla.Text);
+                txtPantalla.Text = Convert.ToString(numero, 2);
+            }
         }
 
         private void btnCE_Click(object sender, EventArgs e)
@@ -93,7 +98,18 @@ namespace Proyecto_1
 
         private void btnConvdecimal_Click(object sender, EventArgs e)
         {
-
+            if (txtPantalla.Text != "")
+            {
+                try
+                {
+                    int numeroDecimal = Convert.ToInt32(txtPantalla.Text, 2);
+                    txtPantalla.Text = numeroDecimal.ToString();
+                }
+                catch
+                {
+                    MessageBox.Show("El valor no es un número binario válido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
         }
 
         private void btnRaizcuadrada_Click(object sender, EventArgs e)
