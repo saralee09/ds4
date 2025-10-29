@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using System.Data.SqlClient;
 
 namespace Proyecto_1
 {
@@ -197,6 +199,70 @@ namespace Proyecto_1
 
         }
 
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string conexion = ConfigurationManager.ConnectionStrings["ConexionDB"].ConnectionString;
+
+                using (SqlConnection cn = new SqlConnection(conexion))
+                {
+                    cn.Open();
+                    string query = "SELECT Valor1, Operacion, Valor2, Resultado, Fecha FROM Historial ORDER BY Fecha DESC";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    lstHistorial.Items.Clear();
+
+                    while (reader.Read())
+                    {
+                        string fila = $"{reader["Valor1"]} {reader["Operacion"]} {reader["Valor2"]} = {reader["Resultado"]}  ({reader["Fecha"]})";
+                        lstHistorial.Items.Add(fila);
+                    }
+
+                    reader.Close();
+                }
+
+                lstHistorial.Visible = true;
+
+                if (lstHistorial.Items.Count == 0)
+                    MessageBox.Show("No hay operaciones guardadas aún.", "Historial", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al mostrar el historial: " + ex.Message);
+            }
+        }
+
+        private void lstHistorial_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GuardarCalculo(double v1, string op, double v2, double res)
+        {
+            try
+            {
+                // Usa la conexión del App.config
+                string conexion = ConfigurationManager.ConnectionStrings["ConexionDB"].ConnectionString;
+
+                using (SqlConnection cn = new SqlConnection(conexion))
+                {
+                    cn.Open();
+                    string query = "INSERT INTO Historial (Valor1, Operacion, Valor2, Resultado) VALUES (@v1, @op, @v2, @res)";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.Parameters.AddWithValue("@v1", v1);
+                    cmd.Parameters.AddWithValue("@op", op);
+                    cmd.Parameters.AddWithValue("@v2", v2);
+                    cmd.Parameters.AddWithValue("@res", res);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al guardar el cálculo: " + ex.Message);
+            }
+        }
         private void btnIgual_Click(object sender, EventArgs e)
         {
             try
@@ -238,6 +304,9 @@ namespace Proyecto_1
                 }
 
                 txtPantalla.Text = resultado.ToString();
+
+                GuardarCalculo(valor1, operacion, valor2, resultado);
+
                 // Reinicia la operación
                 operacion = "";
             }

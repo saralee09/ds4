@@ -1,0 +1,10 @@
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.csproj.AssemblyReference.cache
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.Form1.resources
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.Properties.Resources.resources
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.csproj.GenerateResource.cache
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.csproj.CoreCompileInputs.cache
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\bin\Debug\Proyecto_1.exe.config
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\bin\Debug\Proyecto_1.exe
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\bin\Debug\Proyecto_1.pdb
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.exe
+C:\Users\sarag\source\repos\saralee09\ds4\Proyecto1\Proyecto_1\obj\Debug\Proyecto_1.pdb

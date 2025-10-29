@@ -53,6 +53,8 @@
             this.btnDecimal = new System.Windows.Forms.Button();
             this.btn0 = new System.Windows.Forms.Button();
             this.btnNegativos = new System.Windows.Forms.Button();
+            this.btnHistorial = new System.Windows.Forms.Button();
+            this.lstHistorial = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // txtPantalla
@@ -302,11 +304,33 @@
             this.btnNegativos.Text = "+/-";
             this.btnNegativos.UseVisualStyleBackColor = true;
             // 
+            // btnHistorial
+            // 
+            this.btnHistorial.Location = new System.Drawing.Point(146, 265);
+            this.btnHistorial.Name = "btnHistorial";
+            this.btnHistorial.Size = new System.Drawing.Size(115, 23);
+            this.btnHistorial.TabIndex = 25;
+            this.btnHistorial.Text = "Mostrar Historial";
+            this.btnHistorial.UseVisualStyleBackColor = true;
+            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
+            // 
+            // lstHistorial
+            // 
+            this.lstHistorial.FormattingEnabled = true;
+            this.lstHistorial.Location = new System.Drawing.Point(433, 41);
+            this.lstHistorial.Name = "lstHistorial";
+            this.lstHistorial.Size = new System.Drawing.Size(241, 199);
+            this.lstHistorial.TabIndex = 26;
+            this.lstHistorial.Visible = false;
+            this.lstHistorial.SelectedIndexChanged += new System.EventHandler(this.lstHistorial_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lstHistorial);
+            this.Controls.Add(this.btnHistorial);
             this.Controls.Add(this.btnIgual);
             this.Controls.Add(this.btnDecimal);
             this.Controls.Add(this.btn0);
@@ -367,6 +391,8 @@
         private System.Windows.Forms.Button btnDecimal;
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnNegativos;
+        private System.Windows.Forms.Button btnHistorial;
+        private System.Windows.Forms.ListBox lstHistorial;
     }
 }
 
