@@ -1,0 +1,1 @@
+select ProductName from [dbo]. [Products]
