@@ -57,7 +57,50 @@ namespace Laboratorio_14
 
         private void tsbBuscar_Click(object sender, EventArgs e)
         {
+            string sql = "SELECT * FROM LAPTOPS WHERE ID=" + tstId.Text;
 
+            SqlConnection con = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.CommandType = CommandType.Text;
+            SqlDataReader reader;
+            con.Open();
+
+            try
+            {
+                reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    tsbNuevo.Enabled = false;
+                    tsbGuardar.Enabled = true;
+                    tsbBuscar.Enabled = true;
+                    tsbEliminar.Enabled = true;
+                    tsbCancelar.Enabled = true;
+                    txtId.Enabled = false;
+                    txtNombre.Enabled = true;
+                    txtPrecio.Enabled = true;
+                    txtStock.Enabled = true;
+                    txtNombre.Focus();
+                    txtId.Text = reader[0].ToString();
+                    txtNombre.Text = reader[1].ToString();
+                    txtPrecio.Text = reader[2].ToString();
+                    txtStock.Text = reader[3].ToString();
+                    nuevo = false;
+                }
+                else
+                {
+                    MessageBox.Show("Ningun registro encontrado con el Id ingresado !");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.ToString());
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            tstId.Text = "";
         }
 
         private void tsbEliminar_Click(object sender, EventArgs e)
