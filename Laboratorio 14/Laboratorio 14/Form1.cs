@@ -72,7 +72,68 @@ namespace Laboratorio_14
 
         private void tsbGuardar_Click(object sender, EventArgs e)
         {
+            if (nuevo)
+            {
+                string sql = "INSERT INTO LAPTOPS (NOMBRE, PRECIO, STOCK)"
+                    + "VALUES ('" + txtNombre.Text + "', '" + txtPrecio.Text + "', '" + txtStock.Text + "')";
 
+                SqlConnection con = new SqlConnection(connectionString);
+                SqlCommand cmd = new SqlCommand(sql, con);
+                cmd.CommandType = CommandType.Text;
+                con.Open();
+                try
+                {
+                    int i = cmd.ExecuteNonQuery();
+                    if (i > 0)
+                        MessageBox.Show("Registro ingresado correctamente !");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro: " + ex.ToString());
+                }
+                finally
+                {
+                    con.Close();
+                }
+            }
+            else
+            {
+                string sql = "UPDATE LAPTOPS SET NOMBRE='" + txtNombre.Text +
+                "', PRECIO='" + txtPrecio.Text +
+                "', " + "STOCK='" + txtStock.Text + "' WHERE id=" + txtId.Text + "'";
+
+                SqlConnection con = new SqlConnection(connectionString);
+                SqlCommand cmd = new SqlCommand(sql, con);
+                cmd.CommandType = CommandType.Text;
+                con.Open();
+                try
+                {
+                    int i = cmd.ExecuteNonQuery();
+                    if (i > 0)
+                        MessageBox.Show("Registro actualizado correctamente !");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro: " + ex.ToString());
+                }
+                finally
+                {
+                    con.Close();
+                }
+            }
+            tsbNuevo.Enabled = true;
+            tsbGuardar.Enabled = false;
+            tsbCancelar.Enabled = false;
+            tsbEliminar.Enabled = false;
+            tstId.Enabled = true;
+            tsbBuscar.Enabled = true;
+            txtNombre.Enabled = false;
+            txtPrecio.Enabled = false;
+            txtStock.Enabled = false;
+            txtId.Text = "";
+            txtNombre.Text = "";
+            txtPrecio.Text = "";
+            txtStock.Text = "";
         }
 
         private void tsbNuevo_Click(object sender, EventArgs e)
