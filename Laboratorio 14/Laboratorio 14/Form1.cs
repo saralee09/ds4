@@ -62,12 +62,57 @@ namespace Laboratorio_14
 
         private void tsbEliminar_Click(object sender, EventArgs e)
         {
-
+            tsbNuevo.Enabled = true;
+            tsbGuardar.Enabled = false;
+            tsbCancelar.Enabled = false;
+            tsbEliminar.Enabled = false;
+            tstId.Enabled = true;
+            tsbBuscar.Enabled = true;
+            txtNombre.Enabled = false;
+            txtPrecio.Enabled = false;
+            txtStock.Enabled = false;
+            txtId.Text = "";
+            txtNombre.Text = "";
+            txtPrecio.Text = "";
+            txtStock.Text = "";
         }
 
         private void tsbCancelar_Click(object sender, EventArgs e)
         {
+            string sql = "delete from LAPTOPS where id='" + this.txtId.Text + "';";
 
+            SqlConnection con = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.CommandType = CommandType.Text;
+            con.Open();
+
+            try
+            {
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                    MessageBox.Show("Registro eliminado correctamente !");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.ToString());
+            }
+            finally
+            {
+                con.Close();
+            }
+            tsbNuevo.Enabled = true;
+            tsbGuardar.Enabled = false;
+            tsbCancelar.Enabled = false;
+            tsbEliminar.Enabled = false;
+            txtId.Enabled = true;
+            tsbBuscar.Enabled = true;
+            txtNombre.Enabled = false;
+            txtPrecio.Enabled = false;
+            txtStock.Enabled = false;
+            txtId.Text = "";
+            txtNombre.Text = "";
+            txtPrecio.Text = "";
+            txtStock.Text = "";
         }
 
         private void tsbGuardar_Click(object sender, EventArgs e)
