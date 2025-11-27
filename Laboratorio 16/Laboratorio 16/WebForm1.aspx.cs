@@ -124,6 +124,7 @@ namespace Laboratorio_16
                 t.Text = t.Text + b0.Text;
         }
 
+
         protected void add_Click(object sender, EventArgs e)
         {
             a = Convert.ToInt32(t.Text);
@@ -156,7 +157,7 @@ namespace Laboratorio_16
             t.Text += b;
         }
 
-        protected void eql_Click(object sender, EventArgs e)
+        protected void eq_Click(object sender, EventArgs e)
         {
             c = Convert.ToInt32(t.Text);
             t.Text = "";
