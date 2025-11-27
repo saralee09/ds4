@@ -13,5 +13,10 @@ namespace Laboratorio_16
         {
 
         }
+
+        protected void btnMensaje_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
