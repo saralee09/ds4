@@ -70,6 +70,27 @@ namespace Laboratorio_16
                 t.Text = t.Text + b5.Text;
         }
 
+        protected void b6_Click(object sender, EventArgs e)
+        {
+            if ((t.Text == "+") || (t.Text == "-") || (t.Text == "*") || (t.Text == "/"))
+            {
+                t.Text = "";
+                t.Text = t.Text + b6.Text;
+            }
+            else
+                t.Text = t.Text + b6.Text;
+        }
+
+        protected void b7_Click(object sender, EventArgs e)
+        {
+            if ((t.Text == "+") || (t.Text == "-") || (t.Text == "*") || (t.Text == "/"))
+            {
+                t.Text = "";
+                t.Text = t.Text + b7.Text;
+            }
+            else
+                t.Text = t.Text + b7.Text;
+        }
         protected void b8_Click(object sender, EventArgs e)
         {
             if ((t.Text == "+") || (t.Text == "-") || (t.Text == "*") || (t.Text == "/"))
