@@ -23,7 +23,7 @@
     <form id="form1" runat="server">
   <div class="cal">
     <asp:Label ID="l1" Text="CALCULADORA BASICA" runat="server" Style="margin-left: 50px; font-Bold=True; Font-Italic=False; foreColor=White; Font-Size=25px;" />
-    <asp:TextBox ID="t1" runat="server" Style="margin-left: 50px; margin-top: 24px;" Width="335px" Height="41px" />
+    <asp:TextBox ID="t" runat="server" Style="margin-left: 50px; margin-top: 24px;" Width="335px" Height="41px" />
     <asp:Button ID="b1" Text="1" runat="server" Height="37px" Style="margin-left: 0px;" Width="57px" OnClick="b1_Click" />
     <asp:Button ID="b2" Text="2" runat="server" Height="37px" Style="margin-left: 0px;" Width="57px" OnClick="b2_Click" />
     <asp:Button ID="b3" Text="3" runat="server" Height="37px" Style="margin-left: 0px;" Width="57px" OnClick="b3_Click" />

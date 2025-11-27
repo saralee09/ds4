@@ -42,13 +42,13 @@ namespace Laboratorio_16
         protected global::System.Web.UI.WebControls.Label l1;
 
         /// <summary>
-        /// t1 control.
+        /// t control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox t1;
+        protected global::System.Web.UI.WebControls.TextBox t;
 
         /// <summary>
         /// b1 control.
