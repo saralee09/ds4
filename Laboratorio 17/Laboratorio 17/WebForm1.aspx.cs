@@ -23,6 +23,7 @@ namespace Laboratorio_17
                 cmd.Parameters.Add("@CategoryName", SqlDbType.VarChar).Value = "Seafood";
                 conexion.Open();
 
+
                 using (SqlDataReader reader = cmd.ExecuteReader())
                 {
                     if (reader.HasRows)
