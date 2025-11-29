@@ -7,7 +7,7 @@ namespace Laboratorio19_3.Controllers
     public class ValuesController : Controller
     {
         
-        private const string ApiBase = "https://localhost:44360/";
+        private const string ApiBase = "https://localhost:44387/";
 
         
         public async Task<ActionResult> Detail(int id = 2)
