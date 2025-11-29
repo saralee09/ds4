@@ -6,7 +6,7 @@ namespace Laboratorio192.Controllers
 {
     public class ValuesController : Controller
     {
-        private const string ApiBase = "https://localhost:44360/"; // cambia el puerto
+        private const string ApiBase = "https://localhost:44387/"; // cambia el puerto por el que esta escuchando el 19 ahorita mismo
 
         public async Task<ActionResult> Index()
         {
