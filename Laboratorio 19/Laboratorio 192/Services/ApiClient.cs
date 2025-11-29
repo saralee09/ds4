@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace Laboratorio19_2.Services
+namespace Laboratorio192.Services
 {
     public class ApiClient
     {
