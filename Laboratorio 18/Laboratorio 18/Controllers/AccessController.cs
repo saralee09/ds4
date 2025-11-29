@@ -13,5 +13,14 @@ namespace Laboratorio_18.Controllers
         {
             return View();
         }
+        public ActionResult Enter(String user, string password)
+        {
+            try{
+                return Content("1");
+            }
+            catch(Exception ex){
+                return Content("Ocurrio un error: (" + ex.Message);
+            }
+        }
     }
 }
