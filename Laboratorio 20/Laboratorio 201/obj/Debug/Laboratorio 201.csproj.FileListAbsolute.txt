@@ -51,6 +51,8 @@ C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\ros
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\roslyn\VBCSCompiler.exe
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\Antlr3.Runtime.dll
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\EntityFramework.dll
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\EntityFramework.SqlServer.dll
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\Newtonsoft.Json.dll
@@ -62,13 +64,15 @@ C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\Sys
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.WebPages.dll
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.WebPages.Razor.dll
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\WebGrease.dll
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\EntityFramework.xml
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\EntityFramework.SqlServer.xml
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.Helpers.xml
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.Mvc.xml
-C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.Optimization.xml
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.Razor.xml
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.WebPages.xml
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.WebPages.Deployment.xml
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.WebPages.Razor.xml
+C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\System.Web.Optimization.xml
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\Newtonsoft.Json.xml
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\Antlr3.Runtime.pdb
 C:\Users\sarag\source\repos\saralee09\ds4\Laboratorio 20\Laboratorio 201\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
