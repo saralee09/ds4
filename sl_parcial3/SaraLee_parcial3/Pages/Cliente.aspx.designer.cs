@@ -11,7 +11,7 @@ namespace sl_parcial3.Pages
 {
 
 
-    public partial class Cliente
+    public partial class ClientesPage
     {
 
         /// <summary>
