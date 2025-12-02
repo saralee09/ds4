@@ -6,7 +6,7 @@ using sl_parcial3.Models;
 
 namespace sl_parcial3.Pages
 {
-    public partial class Clientes : System.Web.UI.Page
+    public partial class Cliente : System.Web.UI.Page
     {
         private readonly SaraLeeContext _db = new SaraLeeContext();
 
