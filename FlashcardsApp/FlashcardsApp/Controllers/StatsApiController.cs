@@ -1,23 +1,21 @@
-﻿using System.Web.Http;
+﻿
+
 using FlashcardsApp.Services;
+using System.Web.Http;
 
 namespace FlashcardsApp.Controllers
 {
+    [RoutePrefix("api/stats")]
     public class StatsApiController : ApiController
     {
-        private readonly StatsService _service;
+        private readonly StatsService _service = new StatsService();
 
-        public StatsApiController()
-        {
-            _service = new StatsService();
-        }
-
+        // GET api/stats/1
         [HttpGet]
-        [Route("api/hardest/{userId}")]
-        public IHttpActionResult GetHardest(int userId)
+        [Route("{userId:int}")]
+        public IHttpActionResult GetStats(int userId)
         {
-            var result = _service.GetHardestFlashcards(userId);
-            return Ok(result);
+            return Ok(_service.GetStats(userId));
         }
     }
 }

@@ -44,7 +44,6 @@ namespace FlashcardsApp.Data
             return list;
         }
 
-        // 🔹 MÉTODO ADAPTATIVO
         public List<FlashcardAdaptiveDto> GetAdaptiveFlashcards(int languageId, int userId)
         {
             var list = new List<FlashcardAdaptiveDto>();

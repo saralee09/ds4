@@ -1,12 +1,16 @@
-﻿@model List<FlashcardsApp.Models.Flashcard>
+﻿@{
+    ViewBag.Title = "Home";
+}
 
-<h2>Flashcards</h2>
+<div class="card">
+    <h1>Flashcards App</h1>
 
-<ul>
-    @foreach (var card in Model)
-    {
-        <li>
-            <strong>@card.Word</strong> - @card.Translation
-        </li>
-    }
-</ul>
+    <p>
+        Aplicación web para aprender idiomas usando flashcards,
+        con seguimiento de progreso y estadísticas de desempeño.
+    </p>
+
+    <a href="/Study/SelectLanguage">
+        <button>Empezar a estudiar</button>
+    </a>
+</div>

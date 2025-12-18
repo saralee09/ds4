@@ -14,13 +14,13 @@ namespace FlashcardsApp.Services
             _repo = new FlashcardsRepository();
         }
 
-        // 🔹 CLÁSICO (NO ADAPTATIVO)
+        
         public List<Flashcard> GetFlashcardsByLanguage(int languageId)
         {
             return _repo.GetFlashcardsByLanguage(languageId);
         }
 
-        // 🔹 ADAPTATIVO (BONUS)
+       
         public List<FlashcardAdaptiveDto> GetAdaptiveFlashcards(int languageId, int userId)
         {
             return _repo

@@ -2,46 +2,74 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <title>@ViewBag.Title - FlashcardsApp</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap (MVC clásico lo trae) -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            background-color: #f4f6f8;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .navbar {
+            border-radius: 0;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 15px;
+            text-align: center;
+            color: #777;
+            font-size: 13px;
+        }
+    </style>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-        <div class="container">
-            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>
-                        @Html.ActionLink("Flashcards", "Index", "Flashcards",
-                            new { languageId = 1 }, null)
-                    </li>
 
-                </ul>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">FlashcardsApp</a>
             </div>
+
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Flashcards", "Index", "Flashcards")</li>
+                <li>@Html.ActionLink("Stats", "Index", "Stats")</li>
+            </ul>
         </div>
     </nav>
-    <div class="container body-content">
+
+    <!-- CONTENIDO -->
+    <div class="container">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FOOTER -->
+    <footer>
+        Flashcards App · ASP.NET MVC · Demo académica
+    </footer>
 
+    <!-- Scripts -->
+    <script src="~/Scripts/jquery-3.7.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    @RenderSection("scripts", required: false)
 </body>
 </html>
