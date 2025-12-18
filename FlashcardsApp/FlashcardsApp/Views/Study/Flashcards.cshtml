@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Flashcards";
+}
+
+<h2 id="word">Cargando...</h2>
+
+<button onclick="answer(true)">Correcto</button>
+<button onclick="answer(false)">Incorrecto</button>
+
+<script>
+    const languageId = @ViewBag.LanguageId;
+</script>
+<script src="~/Scripts/flashcards.js"></script>
+

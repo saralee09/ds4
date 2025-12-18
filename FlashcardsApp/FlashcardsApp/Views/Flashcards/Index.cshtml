@@ -1,0 +1,12 @@
+﻿@model List<FlashcardsApp.Models.Flashcard>
+
+<h2>Flashcards</h2>
+
+<ul>
+    @foreach (var card in Model)
+    {
+        <li>
+            <strong>@card.Word</strong> - @card.Translation
+        </li>
+    }
+</ul>
