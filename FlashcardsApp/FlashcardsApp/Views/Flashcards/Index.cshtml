@@ -1,16 +1,63 @@
-﻿@{
-    ViewBag.Title = "Home";
-}
+﻿<h2>Flashcards</h2>
 
-<div class="card">
-    <h1>Flashcards App</h1>
+<div class="panel panel-default">
+    <div class="panel-body text-center">
 
-    <p>
-        Aplicación web para aprender idiomas usando flashcards,
-        con seguimiento de progreso y estadísticas de desempeño.
-    </p>
+        <h3 id="word">...</h3>
+        <h4 id="translation" style="display:none; color:green;"></h4>
 
-    <a href="/Study/SelectLanguage">
-        <button>Empezar a estudiar</button>
-    </a>
+        <br />
+
+        <button id="showBtn" class="btn btn-info" onclick="showAnswer()">
+            Mostrar respuesta
+        </button>
+
+        <div id="answerBtns" style="display:none; margin-top:15px;">
+            <button class="btn btn-success" onclick="answer(true)">Correcto</button>
+            <button class="btn btn-danger" onclick="answer(false)">Incorrecto</button>
+        </div>
+
+    </div>
 </div>
+
+@section scripts {
+    <script>
+        let cards = [];
+        let index = 0;
+
+        fetch('/api/flashcards/1?userId=1')
+            .then(res => res.json())
+            .then(data => {
+                cards = data;
+                showCard();
+            });
+
+        function showCard() {
+            const card = cards[index];
+            document.getElementById("word").innerText = card.Word;
+            document.getElementById("translation").innerText = card.Translation;
+
+            document.getElementById("translation").style.display = "none";
+            document.getElementById("answerBtns").style.display = "none";
+            document.getElementById("showBtn").style.display = "inline-block";
+        }
+
+        function showAnswer() {
+            document.getElementById("translation").style.display = "block";
+            document.getElementById("answerBtns").style.display = "block";
+            document.getElementById("showBtn").style.display = "none";
+        }
+
+        function answer(isCorrect) {
+            // aquí luego guardamos la sesión
+            index++;
+
+            if (index >= cards.length) {
+                alert("Sesión terminada");
+                return;
+            }
+
+            showCard();
+        }
+    </script>
+}

@@ -128,6 +128,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SessionsApiController.cs" />
     <Compile Include="Controllers\StatsApiController.cs" />
+    <Compile Include="Controllers\StatsController.cs" />
     <Compile Include="Controllers\StudyController.cs" />
     <Compile Include="Data\DbHelper.cs" />
     <Compile Include="Controllers\FlashcardsApiController.cs" />
@@ -138,6 +139,7 @@
     </Compile>
     <Compile Include="Models\FlashcardsAdaptativeDto.cs" />
     <Compile Include="Models\HardestFlashcardDto.cs" />
+    <Compile Include="Models\SessionDetail.cs" />
     <Compile Include="Models\SessionRequest.cs" />
     <Compile Include="Models\Flashcard.cs" />
     <Compile Include="Models\Session.cs" />

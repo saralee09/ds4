@@ -30,7 +30,7 @@ namespace FlashcardsApp.Data
                 SELECT 
                     s.SessionId,
                     CONVERT(varchar, s.SessionDate, 23) AS Date,
-                    COUNT(sd.SessionDetailId) AS Total,
+                    COUNT(sd.DetailId) AS Total,
                     SUM(CASE WHEN sd.IsCorrect = 1 THEN 1 ELSE 0 END) AS Correct
                 FROM Sessions s
                 JOIN SessionDetails sd ON s.SessionId = sd.SessionId
