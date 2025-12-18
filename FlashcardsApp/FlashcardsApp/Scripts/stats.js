@@ -34,9 +34,7 @@ fetch(`/api/stats/${userId}`)
         });
     });
 
-/* ======================
-   TARJETAS MÁS FALLADAS
-====================== */
+
 fetch(`/api/hardest/${userId}`)
     .then(res => res.json())
     .then(data => {
